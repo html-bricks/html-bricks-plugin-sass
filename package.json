@@ -1,0 +1,27 @@
+{
+  "name": "html-bricks-plugin-sass",
+  "version": "0.0.1",
+  "description": "Sass support for HTML-bricks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavgb/html-bricks-plugin-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "plugin",
+    "html-bricks",
+    "static",
+    "compiler",
+    "cool"
+  ],
+  "author": "Gustav Burchardt <gustavburchardt@gmail.com> (https://gustavgb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavgb/html-bricks-plugin-sass/issues"
+  },
+  "homepage": "https://github.com/gustavgb/html-bricks-plugin-sass#readme"
+}
