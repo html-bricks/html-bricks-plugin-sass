@@ -20,7 +20,7 @@ Then include the plugin in your config
 
 ## Usage
 
-When you have sass files in your src folder (ending in .scss or .sass), these will be compiled to pure css and written to their original location but as `.css` files instead of sass files.
+When you have sass files in your src folder (ending in `.scss` or `.sass`), these will be compiled to pure css and written to their original location but as `.css` files instead of sass files.
 
 This means that you should include them using the `.css` extension.
 
