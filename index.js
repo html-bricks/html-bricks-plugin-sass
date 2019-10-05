@@ -4,7 +4,6 @@ const sassReg = /(\.sass|\.scss)$/
 
 exports.postBuild = function (files) {
   return new Promise((resolve, reject) => {
-    console.log('Compiling sass files\n')
     const next = files.map(file => {
       if (file.src.match(sassReg)) {
         return Object.assign({}, file, {

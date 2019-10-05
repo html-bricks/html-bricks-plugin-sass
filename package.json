@@ -26,5 +26,8 @@
   "homepage": "https://github.com/gustavgb/html-bricks-plugin-sass#readme",
   "dependencies": {
     "node-sass": "^4.12.0"
+  },
+  "peerDependencies": {
+    "html-bricks": "0.x"
   }
 }
