@@ -1,6 +1,6 @@
 # html-bricks-plugin-sass
 
-Sass support for [html-bricks](https://github.com/gustavgb/html-bricks) using node-sass.
+Sass support for [html-bricks](https://github.com/html-bricks/html-bricks) using node-sass.
 
 ## Requirements
 
