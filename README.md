@@ -2,6 +2,10 @@
 
 Sass support for [html-bricks](https://github.com/gustavgb/html-bricks) using node-sass.
 
+## Requirements
+
+`html-bricks` >= 0.3.
+
 ## Installation
 
 Install using npm
