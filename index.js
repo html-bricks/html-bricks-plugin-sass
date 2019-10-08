@@ -8,11 +8,11 @@ exports.postBuild = function (files, config) {
         return Object.assign({}, file, {
           dest: file.dest.replace(sassReg, '.css'),
           content: sass.renderSync({
-            data: file.content.toString()
-          }).css,
-          includePaths: [
-            config.sourceDir
-          ]
+            data: file.content.toString(),
+            includePaths: [
+              config.sourceDir
+            ]
+          }).css
         })
       } else {
         return file
